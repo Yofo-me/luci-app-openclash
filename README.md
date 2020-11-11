@@ -5,7 +5,7 @@ luci-app-openclash 适用于Openwrt 编译
 ## 同步源码
     cd lede/package
     git clone https://github.com/yuos-bit/luci-app-openclash.git 
- 更新，安装软件包,输入
+    更新，安装软件包,输入
     ./scripts/feeds update luci
     ./scripts/feeds install -a
     然后再输入make menuconfig V=sc
